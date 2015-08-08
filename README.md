@@ -37,12 +37,14 @@ Mostrar los comandos más usados
     hg clone http://code.matthewwild.co.uk/verse/ verse
 
 Mostrar los dos ficheros más usados
-pi@bot ~ $ uso 2
+
+    pi@bot ~ $ uso 2
     /var/log/prosody/prosody.log
     /usr/local/bin/hf
 
 Mostrar los ficheros más usados que contengan la palabra prosody en su ruta absoluta
-pi@bot ~ $ uso prosody
+
+    pi@bot ~ $ uso prosody
     /var/log/prosody/prosody.log
     /var/log/prosody/prosody.err
     /usr/lib/prosody/modules/mod_takenote.lua

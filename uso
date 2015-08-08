@@ -1,5 +1,4 @@
 #!/usr/bin/perl -w
-# http://www.learning-perl.com/2013/02/learning-perl-challenge-popular-history-answer/
 use Cwd 'abs_path';
 
 my ($hst,$tp,$icm,$filter)=(undef,-1,0,0);
@@ -83,4 +82,3 @@ close(HISTORY);
 
 if (keys(%files)) {report_top($tp,%files);}
 if (keys(%cmds)) {report_top($tp,%cmds);}
-

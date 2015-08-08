@@ -62,4 +62,4 @@ Mostrar el comando más usado por el usuario bot y que contenga la palabra lua
 	
     pi@bot ~ $ history -a
 
-No integramos la llamada a "history -a" dentro del script porque necesita ser ejecutado directamente por el usuario para garantizar que se actualice su .bash_history
+No integramos la llamada a `history -a` dentro del script porque necesita ser ejecutado directamente por el usuario para garantizar que se actualice su .bash_history
